@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    background: url("https://cdn.pixabay.com/photo/2016/02/24/15/08/desk-1220052_1280.jpg");
+    background-size: cover;
+    color: white;
+ }
+ 
+ 
+   h1{
+     font-size: 75px;
+     margin: 0 0 -10px 0;
+     }
+ h2{
+  
+   font-size:50px;
+ }
+     img{
+        width: 10%;
+        height: auto;
+       margin: 40px 0px 0px 0px;
+       border: 7px solid white;
+       border-radius: 20px;
+        }
+ 
+ p{
+   font-size: 40px;
+   
+   }
+     
+ 
+   .button {
+    background-color: Blue; /* Green */
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  #more {display: none;}
+
+  #myBtn{
+      display: flex;
+  }
+
+  .container{
+    flex-wrap: wrap;
+  }
